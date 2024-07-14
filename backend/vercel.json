@@ -3,7 +3,7 @@
     "builds": [
         {
             "src": "*.js",
-            "use": "@vercel/python",
+            "use": "@vercel/node",
             "config": {
                 "maxLambdaSize": "15mb",
                 "runtime": "python3.11"
